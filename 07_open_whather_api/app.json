@@ -1,0 +1,32 @@
+{
+  "expo": {
+    "name": "07_open_whather_api",
+    "slug": "07_open_whather_api",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSLocationWhenInUseUsageDescription": "앱이 위치 정보를 사용하는 이유를 설명하세요.",
+        "NSLocationAlwaysUsageDescription": "앱이 백그라운드에서 위치 정보를 사용하는 이유를 설명하세요."
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
